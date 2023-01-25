@@ -1,5 +1,6 @@
 import "./App.css";
 import UseEffectHook from "./components/UseEffectHook";
+import UseImperativeHandleHook from "./components/UseImperativeHandleHook";
 import UseLayoutEffectHook from "./components/UseLayoutEffectHook";
 import UseReducerHook from "./components/UseReducerHook";
 import UseRefHook from "./components/UseRefHook";
@@ -13,6 +14,7 @@ function App() {
       <UseEffectHook/>
       <UseRefHook/>
       <UseLayoutEffectHook/>
+      <UseImperativeHandleHook/>
     </div>
   );
 }
