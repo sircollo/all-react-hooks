@@ -1,4 +1,5 @@
 import './App.css';
+import UseEffectHook from './components/UseEffectHook';
 import UseReducerHook from './components/UseReducerHook';
 import UseStateHook from './components/UseStateHook';
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App" style={{textAlign:"center"}}>
       <UseStateHook/>
       <UseReducerHook/>
+      <UseEffectHook/>
     </div>
   );
 }
